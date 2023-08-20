@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="463.0" prefWidth="707.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.etudiant.controllers.EtudiantController">
+   <children>
+      <AnchorPane prefHeight="463.0" prefWidth="233.0" style="-fx-background-color: bluesky;">
+         <children>
+            <ComboBox fx:id="classeTFD" layoutX="32.0" layoutY="366.0" onAction="#choice" prefHeight="25.0" prefWidth="149.0" promptText="Selectionnez votre classe" />
+            <Text layoutX="59.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FORMULAIRE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="32.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOM">
+               <font>
+                  <Font name="Times New Roman Italic" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="35.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRENOM" textAlignment="CENTER" />
+            <Text layoutX="32.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL" />
+            <Text layoutX="32.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" />
+            <TextField fx:id="nomTFD" layoutX="32.0" layoutY="96.0" />
+            <TextField fx:id="prenomTFD" layoutX="32.0" layoutY="154.0" />
+            <TextField fx:id="emailTFD" layoutX="32.0" layoutY="227.0" />
+            <TextField fx:id="numeroTFD" layoutX="32.0" layoutY="298.0" />
+            <Button fx:id="enregistrerBtn" layoutX="61.0" layoutY="414.0" mnemonicParsing="false" onAction="#save" text="ENREGISTRER">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Text layoutX="32.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLASSE" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="tableauTB" layoutX="233.0" layoutY="91.0" prefHeight="282.0" prefWidth="455.0">
+        <columns>
+          <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="nomCol" prefWidth="75.0" text="NOM" />
+            <TableColumn fx:id="prenomCol" prefWidth="75.0" text="PRENOM" />
+            <TableColumn fx:id="emailCol" prefWidth="75.0" text="EMAIL" />
+            <TableColumn fx:id="numeroCol" prefWidth="75.0" text="NUMERO" />
+            <TableColumn fx:id="classeCol" prefWidth="75.0" text="CLASSE" />
+        </columns>
+      </TableView>
+      <Text layoutX="356.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LISTE DES ETUDIANT">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

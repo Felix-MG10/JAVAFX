@@ -1,0 +1,25 @@
+
+`	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+p
+java:S2293Œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸÛ§ß
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÀÑ±­ûÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¨ßìÊüÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(İîü™úÿÿÿÿ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰İèå
+u
+java:S2293‘"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÎÚÊêùÿÿÿÿ
+\
+java:S1192P"FDefine a constant instead of duplicating this literal "Error" 3 times.(ËóŞ®
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(¿ø¬€
+L
+java:S1854_"6Remove this useless assignment to local variable "ok".(¤©´ß
+V	java:S125]"<This block of commented-out lines of code should be removed.(Øœ€£ÿÿÿÿÿ
+=
+java:S1481_"'Remove this unused "ok" local variable.(¤©´ß
+V	java:S125n"<This block of commented-out lines of code should be removed.(¥“Ò€ÿÿÿÿÿ
+@
+java:S1068<"*Remove this unused "classe" private field.(ƒ’Æ—

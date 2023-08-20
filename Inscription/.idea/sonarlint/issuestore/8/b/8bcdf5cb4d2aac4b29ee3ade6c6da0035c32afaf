@@ -1,0 +1,12 @@
+
+`	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+`	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™–ß†
+g	java:S116"MRename this field "C1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹¬íÊøÿÿÿÿ
+g	java:S116"MRename this field "C2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÕ­îûÿÿÿÿ
+b	java:S116"MRename this field "C3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¸ß
+f	java:S116""QRename this field "UserTB" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìçùœ
+L
+java:S1854="6Remove this useless assignment to local variable "ok".(¤©´ß
+=
+java:S1481="'Remove this unused "ok" local variable.(¤©´ß

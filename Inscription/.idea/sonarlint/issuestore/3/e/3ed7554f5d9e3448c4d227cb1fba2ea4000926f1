@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Ûöø
+l
+java:S1450"QRemove the "rs" field and declare it as a local variable in the relevant methods.(‰Úèüÿÿÿÿ
+H
+java:S4925!"-Remove this "Class.forName()", it is useless.(¹µÖÁüÿÿÿÿ
+D
+java:S2115$")Add password protection to this database.(ğµ´´úÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(êÓæøùÿÿÿÿ

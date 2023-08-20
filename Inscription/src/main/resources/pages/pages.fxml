@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inscription.Controllers.PageController">
+   <Text layoutX="76.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="INSCRIPTION" />
+   <Text layoutX="29.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOM" />
+   <Text layoutX="30.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRENOM" />
+   <Text layoutX="34.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NUMERO" />
+   <TextField fx:id="nomTFD" layoutX="24.0" layoutY="96.0" />
+   <TextField fx:id="prenomTFD" layoutX="24.0" layoutY="169.0" />
+   <TextField fx:id="numeroTFD" layoutX="24.0" layoutY="244.0" />
+   <Button fx:id="enregistrer" layoutX="65.0" layoutY="292.0" mnemonicParsing="false" onAction="#save" text="Enregitrer" />
+   <TableView fx:id="UserTB" layoutX="200.0" layoutY="82.0" prefHeight="200.0" prefWidth="226.0">
+     <columns>
+       <TableColumn fx:id="C1" prefWidth="75.0" text="NOM" />
+       <TableColumn fx:id="C2" prefWidth="75.0" text="PRENOM" />
+         <TableColumn fx:id="C3" prefWidth="75.0" text="NUMERO" />
+     </columns>
+   </TableView>
+</AnchorPane>
